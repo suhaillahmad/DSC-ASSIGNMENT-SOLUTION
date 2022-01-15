@@ -10,11 +10,9 @@ int main()
         for(j=1;j<=5-i;j++)
        cout<<" ";
         
-        for(k=1;k<=i;k++)
+        for(k=1;k<=i*2-1;k++)
         cout<<"*";
         
-        for(k=1;k<i;k++)
-        cout<<"*";
         
         
         cout<<endl;
